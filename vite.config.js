@@ -94,6 +94,7 @@ export default defineConfig({
     compression(),
   ],
 
+
   server: {
     proxy: {
       "/api/": {
